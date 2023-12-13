@@ -1,4 +1,4 @@
 # HTML CSS Basics
 
 - [HTML](01-html)
-- [CSS](02-css)
+- [CSS](02-css-basics)
