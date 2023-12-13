@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+</head>
+<body>
+  <h1>Form 사용해보기</h1>
+  <!-- form 요소 -->
+  <form>
+    <h2>계좌 만들기</h2>
+    <!-- input 요소 -->
+    <label for="name">이름: </label>
+    <input type="text" id="name"><br><br>
+    주소:
+    <input type="text"><br><br>
+    주민등록번호:
+    <input type="text"><br><br>
+    성별
+    <!-- label 요소 -->
+    <label>
+      남: <input type="radio" name="gender">
+    </label>
+    <!-- for 속성에 대상 input의 id 속성 값을 넣어준다. -->
+    <label for="female">여: </label>
+    <!-- 설명을 여기 넣어주고 싶다. -->
+    <!-- input의 id 속성을 부여 -->
+    <input type="radio" name="gender" id="female">
+    <br><br>
+    <!-- 양식 제출 버튼 -->
+    <input type="submit" value="만들기">
+  </form>
+</body>
+</html>

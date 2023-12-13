@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="03-styles.css">
+</head>
+<body>
+  <!-- 어떤 선택자가 우선 적용될까? -->
+  <p>simple element</p>
+  <p style="color: green;">simple inline css element</p>
+  <p id="red-text-id">red-text-id id element, <span>span</span></p>
+  <p class="blue-text-class">blue-text-class class element</p>
+  <p id="red-text-id" class="blue-text-class">id+class element</p>
+  <div class="blue-text-class">div blue-text-class element</div>
+</body>
+</html>

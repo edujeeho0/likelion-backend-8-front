@@ -1,0 +1,32 @@
+/* 어떤 선택자가 우선 적용될까? */
+p {
+  color: greenyellow;
+}
+
+#red-text-id {
+  color: red;
+}
+
+.blue-text-class {
+  color: blue;
+}
+
+#red-text-id.blue-text-class {
+  color: purple;
+}
+
+span#red-text-id {
+  font-size: 24px;
+}
+
+div.blue-text-class {
+  color: dodgerblue;
+}
+
+#red-text-id {
+  color: hotpink;
+}
+
+* {
+  color: black !important;
+}

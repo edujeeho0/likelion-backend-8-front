@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS</title>
+  <!-- 2. head에 style 추가 -->
+  <style>
+    h2 {
+      color: green;
+    }
+  </style>
+  <!-- 3. link로 외부 CSS 추가 -->
+  <link rel="stylesheet" href="01-styles.css">
+</head>
+<body>
+  <!-- 1. 요소에 직접 스타일 적용 - Inline CSS -->
+  <!-- 요소에 style 속성 사용 -->
+  <!-- 장점: 빠르고 정확 -->
+  <!-- 단점: 무지하게 많이 반복 -->
+  <h1 style="color: red;">Inline CSS</h1>
+
+  <!-- 2. HTML head에 style 요소 작성 - Internal (Embedded) CSS -->
+  <!-- 장점: CSS를 따로 관리하고, HTML 전체에 적용 가능 -->
+  <!-- 단점: 웹사이트 페이지가 늘어나면 반복해서 head에 작성해줘야 함 -->
+  <h2>Internal CSS</h2>
+  <h2>Second h2</h2>
+
+  <!-- 3. 외부 파일(.css)에 작성 - External CSS -->
+  <!-- 장점: 여러 페이지에 걸쳐 비슷한 디자인을 적용시킬 수 있다. -->
+  <!-- 단점: CSS를 적용하기 위해 다시 요청을 해야한다 -->
+  <h3>External CSS</h3>
+  <h3>Second h3</h3>
+  <h3>Third h3</h3>
+</body>
+</html>

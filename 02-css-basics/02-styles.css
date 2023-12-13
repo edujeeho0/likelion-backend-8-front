@@ -1,0 +1,58 @@
+/* 요소 선택자 */
+/* 요소들을 대상으로 CSS를 적용한다. */
+/* 모든 h1에 적용 */
+h1 {
+  color: blue;
+}
+
+/* 모든 p 요소를 grey 색으로 */
+p {
+  color: grey;
+}
+
+/* 모든 a 요소를 red 색으로 */
+a {
+  color: red;
+}
+
+/* id 선택자 */
+/* 요소의 id 속성을 바탕으로 적용한다. */
+/* #{id} */
+#id-selector-h1 {
+  color: gold;
+}
+
+/* #{id} */
+#id-selector-p {
+  color: chocolate;
+}
+
+#id-selector-h2 {
+  color: coral;
+}
+
+/* class 선택자 */
+/* 요소의 class 속성을 가지고 적용한다. */
+/* .{class} */
+.message-sender {
+  color: purple;
+}
+
+.message-body {
+  color: blue;
+}
+
+/* 전체 선택자 */
+* {
+  text-align: center;
+}
+
+/* 띄어쓰기 없이 합치면 
+모두 만족하는 요소 선택 */
+#edujeeho.username {
+  color: dodgerblue;
+}
+
+.red.blue{
+  color: purple;
+}
