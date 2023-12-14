@@ -1,0 +1,142 @@
+.box {
+  background-color: dodgerblue ;
+  color: white;
+  width: 200px;
+  height: 200px;
+}
+
+.small-box {
+  background-color: aliceblue;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+/* 네 방향으로 margin을 작성 가능 */
+.margin-4 {
+  margin-top: 50px;
+  margin-right: 100px;
+  margin-bottom: 150px;
+  margin-left: 200px;
+}
+
+/* 네 방향으로 padding을 작성 가능 */
+.padding-4 {
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-bottom: 40px;
+  padding-left: 50px;
+}
+
+.margin-all {
+  /* 4방향 모두 40px 만큼의 거리를 벌린다. */
+  margin: 40px;
+}
+
+.padding-all {
+  /* 4방향 모두 40px 만큼의 거리를 벌린다. */
+  padding: 40px;
+}
+
+/* shorthand - 하나의 속성으로 4방향 모두 값을 정하는 법 */
+.shorthand {
+  /* 상하 좌우 */
+  margin: 10px 20px;
+  padding: 10px 20px;
+  /* 상 좌우 하 */
+  margin: 10px 20px 30px;
+  padding: 10px 20px 30px;
+  /* 상 우 하 좌 */
+  margin: 10px 20px 30px 40px;
+  padding: 10px 20px 30px 40px;
+}
+
+/* 테두리 */
+.border {
+  /* 테두리 굵기 */
+  border-width: 1px;
+  /* 테두리 형식 */
+  border-style: solid;
+  /* 테두리 색상 */
+  border-color: black;
+
+  /* shorthand */
+  /* 굵기 형식 색상 */
+  border: 5px double black;
+}
+
+/* 로그인 버튼 만들어 보기 */
+#login-container {
+  background-color: skyblue;
+  width: 380px;
+  height: 125px;
+  padding: 20px;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+#login-big-button {
+  background-color: green;
+  width: 200px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+/* block 요소 좌우로 정렬 */
+.margin-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* display: block; display: inline; */
+.display-block {
+  display: block;
+}
+
+.display-inline {
+  display: inline;
+}
+
+/* content가 아닌, 요소의 크기 기준으로 */
+/* width height 조정 */
+.border-box {
+  box-sizing: border-box;
+}
+
+/* object-fit */
+#fish-img {
+  width: 500px;
+  height: 300px;
+}
+
+/* 내용 크기에 알맞게 조정 */
+.object-fit-fill {
+  object-fit: fill;
+}
+
+/* 이미지의 내용은 보장하고, 좌우길이가 안맞으면 줄인다. */
+.object-fit-contain {
+  object-fit: contain;
+}
+
+/* 요소의 크기에 최대한 넣고, 넘치면 자른다. */
+.object-fit-cover {
+  object-fit: cover;
+}
+
+/* 테두리 곡선화 */
+/* border-radius */
+.rounded {
+  border-radius: 30px;
+}
+
+.circular {
+  border-radius: 50%;
+}
+
+.inner-icon {
+  width: 70%;
+  margin: auto;
+  padding-top: 15%;
+}

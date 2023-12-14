@@ -1,0 +1,96 @@
+#menu-bar {
+  position: relative;
+  width: 500px;
+  height: 100px;
+  box-sizing: border-box;
+  border: 0.5px solid lightgrey;
+}
+
+#menu-next-button {
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  box-sizing: border-box;
+  background-color: white;
+  border: 0.5px solid lightgrey;
+  border-radius: 50%;
+  top: 10px;
+  right: -40px;
+
+  padding: 20px;
+  font-size: 40px;
+  text-align: center;
+}
+
+body {
+  height: 300vh;
+  margin: 40px;
+}
+
+.box {
+  background-color: blue;
+  color: white;
+  width: 100px;
+  height: 100px;
+  
+  box-sizing: border-box;
+}
+
+/* relative */
+.relative {
+  background-color: green;
+  position: relative;
+  left: 50px;
+  bottom: 50px;
+}
+
+/* absolute */
+.absolute {
+  background-color: yellowgreen;
+  position: absolute;
+  left: 450px;
+  top: 200px;
+}
+
+#big-box {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  background-color: grey;
+}
+
+/* fixed */
+.fixed {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background-color: magenta;
+}
+
+.fixed-2 {
+  position: fixed;
+  left: 50px;
+  top: 50px;
+  background-color: blueviolet;
+  border-radius: 50%;
+}
+
+/* sticky */
+.sticky {
+  position: sticky;
+  background-color: chocolate;
+  top: 100px;
+  left: 100px;
+}
+
+.sticky-2 {
+  position: sticky;
+  background-color: aquamarine;
+  top: 25px;
+}
+
+.bottom-margin {
+  height: 10px;
+  margin-bottom: 1000px;
+}
+

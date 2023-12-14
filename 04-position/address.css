@@ -1,0 +1,42 @@
+#container-all {
+  height: fit-content;
+  border: 0.5px solid lightgrey;
+}
+
+#scroll-container {
+  height: 90vh;
+  width: 40vw;
+  overflow: scroll;
+
+  position: relative;
+}
+
+.name-divider {
+  height: 40px;
+  border: 0.5px solid dodgerblue;
+  background-color: blue;
+  padding-top: 10px;
+  padding-left: 10px;
+  color: white;
+  box-sizing: border-box;
+
+  position: sticky;
+  top: 0px;
+}
+
+.name-item {
+  height: 40px;
+  border: 0.5px solid grey;
+  background-color: white;
+  padding-top: 10px;
+  padding-left: 20px;
+  color: black;
+  box-sizing: border-box;
+}
+
+.some-box {
+  height: 180vh;
+  width: 40vw;
+  border: 0.5px solid lightslategray;
+  box-sizing: border-box;
+}

@@ -1,0 +1,33 @@
+.card {
+  width: 300px;
+  height: 400px;
+  border: 0.5px solid lightgrey;
+  border-radius: 5%;
+  box-sizing: border-box;
+}
+
+.card-image {
+  display: block;
+  height: 150px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.card-date {
+  font-size: 14px;
+}
+
+.card-title {
+  font-size: 24px;
+}
+
+.card-content {
+  font-size: 16px;
+}
+
+.card-button {
+  width: 40%;
+  height: 40px;
+  background-color: dodgerblue;
+  box-sizing: border-box;
+}

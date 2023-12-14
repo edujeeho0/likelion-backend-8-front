@@ -1,0 +1,28 @@
+.container {
+    font-family: 'Roboto Mono', monospace;
+    padding: 20px;
+    width: 80vw;
+    margin: 0px auto;
+    color: #1b1b1b;
+    background-color: #f4f4f4;
+}
+
+.java-keyword {
+    color: dodgerblue;
+}
+
+.java-reference {
+    color: lightcoral;
+}
+
+.java-data {
+    color: darkslateblue;
+}
+
+.java-string {
+    color: lightseagreen;
+}
+
+.code-body {
+    text-align: left;
+}

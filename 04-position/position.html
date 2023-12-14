@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="01-styles.css">
+</head>
+<body>
+  <h1>Hello Position!</h1>
+
+  <div class="box sticky-2">Sticky Box</div>
+
+  <!-- relative -->
+  <div class="box">Top Box</div>
+  <div class="box relative">Relative Box</div>
+  <div class="box">Bot Box</div>
+
+  <hr>
+  <!-- absolute -->
+  <div class="box">Top Box</div>
+  <div class="box absolute">Absolute Box</div>
+  <div class="box">Bot Box</div>
+  <!-- absolute 2 -->
+  <!-- 조상 중에 가장 가까운 -->
+  <!-- position: static;이 아닌 조상 기준 -->
+  <div id="big-box">
+    <div class="box absolute">여깁니다</div>
+  </div>
+  <hr>
+  <!-- absolute UI -->
+  <div id="menu-bar">
+    <div id="menu-next-button">></div>
+  </div>
+  <hr>
+
+  <!-- fixed -->
+  <!-- <div class="box fixed">Fixed Box</div>
+  <div class="box fixed-2">Fixed Box 2</div> -->
+
+  <!-- sticky -->
+  <div class="box sticky">Sticky Box</div>
+  <div class="bottom-margin"></div>
+</body>
+</html>

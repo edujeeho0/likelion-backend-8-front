@@ -1,0 +1,22 @@
+
+.drawer-container {
+  width: 30vw;
+  height: 93vh;
+  background-color: brown;
+  box-sizing: border-box;
+}
+
+.drawer-item {
+  width: 27vw;
+  height: 27vh;
+  background-color: burlywood;
+  box-sizing: border-box;
+}
+
+.drawer-handle {
+  background-color: black;
+  border-radius: 50%;
+  width: 3vh;
+  height: 3vh;
+  box-sizing: border-box;
+}

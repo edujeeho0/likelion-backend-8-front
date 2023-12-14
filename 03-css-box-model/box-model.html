@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="01-styles.css">
+</head>
+<body>
+  <h1>BOX MODEL</h1>
+
+  <!-- box model 속성 정리 -->
+  <div class="box padding-all border">
+    <div class="small-box"></div>
+    <div class="small-box"></div>
+  </div>
+  
+  <div class="box shorthand border">shorthand</div>
+  <div class="box margin-4 border">box 0</div>
+  <div class="box padding-4">box 1</div>
+  <div class="box margin-all padding-all">box 2</div>
+  <div class="box margin-all padding-all">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis aliquam exercitationem commodi expedita, sit, minima perferendis incidunt molestiae saepe iste, temporibus voluptatem cum nemo reprehenderit odio! Provident at quo cupiditate?</div>
+  
+  <!-- 네버 로그인 버튼 -->
+  <div id="login-container" class="border">
+    <p>네버를 더 안전하고 편리하게 이용하세요</p>
+    <div id="login-big-button" class="margin-auto">NEVER 로그인</div>
+    <p>아이디 찾기 | 비밀번호 찾기 | 회원가입</p>
+  </div>
+  
+  <!-- display inline / block -->
+  <p>inline 요소는 width height가 무의미</p>
+  <div class="box display-inline">a</div>
+  <div class="box display-inline">b</div>
+  <form>
+    <img 
+    src="fish.png"
+    alt="물고기" 
+    class="display-block margin-all"
+    >
+    <label class="display-block margin-all">
+      이름
+      <input type="text">
+    </label>
+    <label class="display-block margin-all">
+      나이
+      <input type="text">
+    </label>
+  </form>
+  
+  <!-- border-box -->
+  <div class="box shorthand border border-box">shorthand</div>
+  
+  <!-- object-fit -->
+  <img 
+  src="fish.png"
+  alt="물고기"
+  id="fish-img"
+  class="display-block margin-all object-fit-cover"
+  >
+
+  <!-- border-radius -->
+  <div class="box border border-box rounded"></div>
+  <div class="box border border-box circular">  <img 
+    src="fish.png"
+    alt="물고기"
+    class="display-block inner-icon"
+    ></div>
+</body>
+</html>
