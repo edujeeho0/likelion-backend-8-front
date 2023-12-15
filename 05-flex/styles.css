@@ -1,0 +1,160 @@
+.container {
+  background-color: skyblue;
+  color: white;
+
+  box-sizing: border-box;
+  width: 590px;
+  height: 330px;
+
+  display: flex;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+
+  background-color: dodgerblue;
+  border: 0.5px solid grey;
+
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+}
+
+/* flex-direction */
+/* 주축의 방향을 설정하는 속성이다 */
+.flex-row {
+  /* 왼쪽에서 오른쪽 */
+  flex-direction: row;
+}
+
+.flex-column {
+  /* 위에서 아래로 */
+  flex-direction: column;
+}
+
+.flex-row-reverse {
+  /* 오른쪽에서 왼쪽 */
+  flex-direction: row-reverse;
+}
+
+.flex-column-reverse {
+  /* 아래에서 위로 */
+  flex-direction: column-reverse;
+}
+
+/* flex-wrap */
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+
+/* justify-content */
+/* 주축의 방향으로 정렬 */
+.justify-content-start {
+  /* 시작 방향 */
+  justify-content: flex-start;
+}
+
+.justify-content-end {
+  /* 끝 방향 */
+  justify-content: flex-end;
+}
+
+.justify-content-center {
+  /* 가운데 정렬 */
+  justify-content: center;
+}
+
+/* 여백을 배분 */
+.justify-content-around {
+  justify-content: space-around;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-evenly {
+  justify-content: space-evenly;
+}
+
+/* align-items */
+/* 교차축 방향으로 정렬 */
+.align-items-start {
+  align-items: flex-start;
+}
+
+.align-items-end {
+  align-items: flex-end;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-items-strech {
+  align-items: stretch;
+}
+
+/* align-content */
+/* 요소 줄 단위로 정렬 */
+.align-content-start {
+  align-content: flex-start;
+}
+
+.align-content-end {
+  align-content: flex-end;
+}
+
+.align-content-center {
+  align-content: center;
+}
+
+/* 여백 배치 */
+.align-content-around {
+  align-content: space-around;
+}
+
+.align-content-between {
+  align-content: space-between;
+}
+
+.align-content-evenly {
+  align-content: space-evenly;
+}
+
+/* align-self */
+/* flex-grow */
+/* order */
+
+/* 예시 */
+.outer-div {
+  display: flex;
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+  background-color: gainsboro;
+  border-radius: 50%;
+}
+
+.inner-div {
+  display: flex;
+  width: 95%;
+  height: 95%;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.profile-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
