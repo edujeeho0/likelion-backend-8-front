@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus expedita quas, tempora et, porro ad enim asperiores sit iusto voluptatum ratione amet animi ducimus quibusdam provident aperiam eaque nostrum nobis.</p>
+    <p>
+      <a href="https://google.com">Google</a> <a href="https://github.com">Github</a>
+    </p>
+    <!-- 편의 기능 - 텍스트 -->
+    <p class="text-start">text-start class 적용</p>
+    <p class="text-center">text-center class 적용</p>
+    <p class="text-end">text-end class 적용</p>
+
+    <!-- 편의 기능 - 굵기와 기울기 -->
+    <!-- fw-{굴기}, lighter, light, normal, bold, bolder -->
+    <p class="fw-bolder">bolder 굵기</p>
+    <p class="fw-lighter">lighter 굵기</p>
+    <!-- fst-italic -->
+    <p class="fst-italic">italic체</p>
+
+    <!-- 편의 기능 - 색상 -->
+    <!-- text-{색상} -->
+    <p class="text-primary">text-primary</p>
+    <p class="text-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id nobis eius qui odit commodi nihil dolores, impedit cupiditate nulla esse eum neque unde iste! Nisi officiis consectetur cupiditate dicta aspernatur?</p>
+
+    <!-- bg-{색상} -->
+    <p class="bg-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio cumque reiciendis placeat cupiditate blanditiis numquam. Odit nemo recusandae, ratione nisi impedit, odio rerum quaerat labore illo consequatur porro nihil aliquam.</p>
+
+    <!-- text-bg-{색상} -->
+    <p class="text-bg-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio cumque reiciendis placeat cupiditate blanditiis numquam. Odit nemo recusandae, ratione nisi impedit, odio rerum quaerat labore illo consequatur porro nihil aliquam.</p>
+
+    <!-- 요소의 높낮이 조절 -->
+    <!-- w-*, h-* 25 ~ 100% -->
+    <div style="width: 500px; height: 500px;">
+      <div class="w-50 h-50 bg-primary">
+        <div class="w-50 h-50 bg-primary-subtle">
+          <div class="w-50 h-50 bg-secondary"></div>
+        </div>
+      </div>
+    </div>
+
+    <div style="height: 40px;" class="vw-100 bg-info">
+
+    </div>
+
+    <!-- margin & padding -->
+    <!-- {m 또는 p}{방향}-{크기(0 ~ 5 또는 auto)} -->
+    <div style="width: 500px; height: 500px;" class="bg-light p-5">
+      <div class="w-50 h-50 bg-primary ps-4">
+        <div class="w-50 h-50 bg-primary-subtle pt-3">
+          <div class="w-50 h-50 bg-secondary"></div>
+        </div>
+      </div>
+    </div>
+
+    <div style="width: 500px; height: 500px;" class="bg-light p-5">
+      <div class="w-25 h-25 bg-primary mb-3 p-4">0</div>
+      <div class="w-25 h-25 bg-primary my-4">1</div>
+      <div class="w-25 h-25 bg-primary">2</div>
+    </div>
+
+    <!-- flex -->
+    <!-- display: flex; -->
+    <!-- d-flex -->
+    <div class="w-100 d-flex bg-primary-subtle p-3">
+      <div style="width: 100px; height: 100px;" class="text-bg-primary">0</div>
+      <div style="width: 100px; height: 100px;" class="text-bg-primary">1</div>
+      <div style="width: 100px; height: 100px;" class="text-bg-primary">2</div>
+      <div style="width: 100px; height: 100px;" class="text-bg-primary">3</div>
+    </div>
+    <hr>
+    <!-- flex-row, flex-column... -->
+    <div class="w-100 d-flex bg-primary-subtle p-3 flex-column">
+      <div style="width: 100px; height: 100px;" class="text-bg-primary">0</div>
+      <div style="width: 100px; height: 100px;" class="text-bg-primary">1</div>
+      <div style="width: 100px; height: 100px;" class="text-bg-primary">2</div>
+      <div style="width: 100px; height: 100px;" class="text-bg-primary">3</div>
+    </div>
+
+    <!-- flex-wrap, flex-nowrap -->
+    <div class="w-100 d-flex bg-primary-subtle p-3 flex-wrap">
+      <div style="width: 100px; height: 100px;" class="text-bg-primary">0</div>
+      <div style="width: 100px; height: 100px;" class="text-bg-primary">1</div>
+      <div style="width: 100px; height: 100px;" class="text-bg-primary">2</div>
+      <div style="width: 100px; height: 100px;" class="text-bg-primary">3</div>
+      <div style="width: 100px; height: 100px;" class="text-bg-primary">0</div>
+      <div style="width: 100px; height: 100px;" class="text-bg-primary">1</div>
+      <div style="width: 100px; height: 100px;" class="text-bg-primary">2</div>
+      <div style="width: 100px; height: 100px;" class="text-bg-primary">3</div>
+    </div>
+
+    <!-- 정렬하기 -->
+    <!-- justify-content-* -->
+    <!-- align-items-* -->
+    <!-- align-content-* -->
+    <div class="w-100 d-flex bg-primary-subtle p-3 justify-content-evenly">
+      <div style="width: 100px; height: 100px;" class="text-bg-primary">0</div>
+      <div style="width: 100px; height: 100px;" class="text-bg-primary">1</div>
+      <div style="width: 100px; height: 100px;" class="text-bg-primary">2</div>
+      <div style="width: 100px; height: 100px;" class="text-bg-primary">3</div>
+    </div>
+
+    <!-- 중앙 정렬 -->
+    <div style="width: 500px; height: 500px;" class="bg-light p-5 d-flex justify-content-center align-items-center">
+      <div class="w-50 h-50 bg-primary ps-4">
+        <div class="w-50 h-50 bg-primary-subtle pt-3">
+          <div class="w-50 h-50 bg-secondary"></div>
+        </div>
+      </div>
+    </div>
+
+    <div style="height: 200px;"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
