@@ -1,0 +1,38 @@
+body {
+  margin: 0px;
+}
+
+#top-bar {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 50px;
+  background-color: aquamarine;
+  margin: 0px;
+}
+
+#logo-area {
+  display: flex;
+}
+
+#action-area {
+  display: flex;
+  align-items: center;
+}
+
+.margin-right {
+  margin-right: 30px;
+}
+
+.rounded-button {
+  border: 1px solid black;
+  border-radius: 0.1em;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+h5 {
+  margin: 0px;
+  padding: 4px;
+  text-align: center;
+}

@@ -1,0 +1,42 @@
+.card {
+  width: 300px;
+  height: 400px;
+  border: 0.5px solid lightgrey;
+  border-radius: 5%;
+  box-sizing: border-box;
+}
+
+.card-image {
+  display: block;
+  height: 150px;
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  box-sizing: border-box;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.card-date {
+  font-size: 14px;
+}
+
+.card-title {
+  font-size: 24px;
+}
+
+.card-content {
+  font-size: 16px;
+}
+
+.card-button {
+  width: 40%;
+  height: 40px;
+  padding: 10px;
+  background-color: dodgerblue;
+  border-radius: 0.25rem;
+  box-sizing: border-box;
+}

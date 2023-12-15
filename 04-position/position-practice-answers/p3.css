@@ -1,0 +1,51 @@
+#container {
+  position: relative;
+  width: 800px;
+  height: 50px;
+}
+
+.item {
+  position: absolute;
+  text-align: center;
+  width: 100px;
+  height: 50px;
+  box-sizing: border-box;
+  border: 0.5px solid lightgrey;
+}
+
+.i1 {
+  left: 0px;
+}
+
+.i2 {
+  left: 100px;
+}
+
+.i3 {
+  left: 200px;
+}
+
+.i4 {
+  left: 300px;
+}
+
+.i5 {
+  left: 400px;
+}
+
+.i6 {
+  left: 500px;
+}
+
+.i7 {
+  left: 600px;
+}
+
+.i8 {
+  left: 700px;
+}
+
+.item-selected {
+  color: white;
+  background-color: #42be6f;
+}
